@@ -1,5 +1,5 @@
 spring:
-  applapplication:
-    name=orderService_back202410
-  server:
-    port:8181
+  application:
+    name: orderService_back202410
+server:
+  port: 8181
