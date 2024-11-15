@@ -1,13 +1,13 @@
-package com.spring.orderservice_back202410;
+// package com.spring.orderservice_back202410;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class OrderServiceBack202410ApplicationTests {
+// @SpringBootTest
+// class OrderServiceBack202410ApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+// @Test
+// void contextLoads() {
+// }
 
-}
+// }

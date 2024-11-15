@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/orderservice?serverTimezone=Asia/Seoul
+    url: ${SPRING_DATASOURCE_URL}
     username: root
     password: mysql
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -15,12 +15,18 @@ spring:
   data:
     redis:
       host: localhost
-      port: 6379
+      port: 6380
 
   servlet:
     multipart:
       enabled: true
       max-file-size: 5MB
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
 
 jwt:
   expiration: 30
